@@ -1,6 +1,6 @@
-package io.fdlessard.codebites.caching.repositories;
+package io.fdlessard.codebites.redis.caching.repositories;
 
-import io.fdlessard.codebites.caching.domain.Customer;
+import io.fdlessard.codebites.redis.caching.domain.Customer;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

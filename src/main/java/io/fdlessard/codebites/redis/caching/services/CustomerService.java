@@ -1,6 +1,6 @@
-package io.fdlessard.codebites.caching.services;
+package io.fdlessard.codebites.redis.caching.services;
 
-import io.fdlessard.codebites.caching.domain.Customer;
+import io.fdlessard.codebites.redis.caching.domain.Customer;
 import org.springframework.cache.annotation.Cacheable;
 
 import java.util.List;

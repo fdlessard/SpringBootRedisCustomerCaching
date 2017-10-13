@@ -1,7 +1,7 @@
-package io.fdlessard.codebites.caching.services;
+package io.fdlessard.codebites.redis.caching.services;
 
-import io.fdlessard.codebites.caching.domain.Customer;
-import io.fdlessard.codebites.caching.repositories.CustomerRepository;
+import io.fdlessard.codebites.redis.caching.domain.Customer;
+import io.fdlessard.codebites.redis.caching.repositories.CustomerRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package io.fdlessard.codebites.caching.domain;
+package io.fdlessard.codebites.redis.caching.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

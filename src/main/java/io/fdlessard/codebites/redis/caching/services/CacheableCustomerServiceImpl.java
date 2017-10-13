@@ -1,6 +1,6 @@
-package io.fdlessard.codebites.caching.services;
+package io.fdlessard.codebites.redis.caching.services;
 
-import io.fdlessard.codebites.caching.domain.Customer;
+import io.fdlessard.codebites.redis.caching.domain.Customer;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
@@ -11,7 +11,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 @Slf4j

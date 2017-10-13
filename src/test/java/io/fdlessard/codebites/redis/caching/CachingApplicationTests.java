@@ -1,4 +1,4 @@
-package io.fdlessard.codebites.caching;
+package io.fdlessard.codebites.redis.caching;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

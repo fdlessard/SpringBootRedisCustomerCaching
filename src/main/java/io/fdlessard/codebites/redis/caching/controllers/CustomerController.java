@@ -1,8 +1,8 @@
-package io.fdlessard.codebites.caching.controllers;
+package io.fdlessard.codebites.redis.caching.controllers;
 
 
-import io.fdlessard.codebites.caching.domain.Customer;
-import io.fdlessard.codebites.caching.services.CustomerService;
+import io.fdlessard.codebites.redis.caching.domain.Customer;
+import io.fdlessard.codebites.redis.caching.services.CustomerService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.data.redis.core.RedisTemplate;

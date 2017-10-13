@@ -1,4 +1,4 @@
-package io.fdlessard.codebites.caching;
+package io.fdlessard.codebites.redis.caching;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,10 +11,10 @@ import org.springframework.data.redis.core.RedisTemplate;
 
 @SpringBootApplication
 @EnableCaching
-public class CachingApplication {
+public class RedisCachingApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CachingApplication.class, args);
+		SpringApplication.run(RedisCachingApplication.class, args);
 	}
 
 
